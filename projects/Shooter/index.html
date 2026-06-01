@@ -16,26 +16,31 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#2f4154">
-  <meta name="author" content="John Doe">
-  <meta name="keywords" content="">
+  <meta name="author" content="李遂">
+  <meta name="keywords" content="Unreal Engine,C++,Gameplay Ability System,Game Development,Portfolio">
   
-    <meta name="description" content="📺 玩法演示视频             您的浏览器不支持视频播放，请直接下载视频查看。               查看 GitHub 个人主页       🛠️ 技术栈 Engine: Unreal Engine 4.27 Language: Blueprints AI Tech: Behavior Trees, Blackboard, Navigation Mesh Physics: R">
+    <meta name="description" content="📺 玩法演示视频             您的浏览器不支持视频播放，请直接下载视频查看。               查看 GitHub 个人主页       项目定位这是一个第三人称 3D 射击玩法原型，用于验证角色移动、武器射击、换弹、敌人 AI 和基础战斗反馈的完整链路。项目更偏玩法系统整合，重点是把多个常见 TPS 模块串成可运行的 Demo。 我的职责 实现角色移动、瞄准、射击和换弹流">
 <meta property="og:type" content="website">
 <meta property="og:title" content="UE4 第三人称 3D 射击案例开发详情">
-<meta property="og:url" content="http://example.com/projects/Shooter/index.html">
-<meta property="og:site_name" content="hexo">
-<meta property="og:description" content="📺 玩法演示视频             您的浏览器不支持视频播放，请直接下载视频查看。               查看 GitHub 个人主页       🛠️ 技术栈 Engine: Unreal Engine 4.27 Language: Blueprints AI Tech: Behavior Trees, Blackboard, Navigation Mesh Physics: R">
+<meta property="og:url" content="https://suizil.github.io/projects/Shooter/index.html">
+<meta property="og:site_name" content="李遂的个人网站">
+<meta property="og:description" content="📺 玩法演示视频             您的浏览器不支持视频播放，请直接下载视频查看。               查看 GitHub 个人主页       项目定位这是一个第三人称 3D 射击玩法原型，用于验证角色移动、武器射击、换弹、敌人 AI 和基础战斗反馈的完整链路。项目更偏玩法系统整合，重点是把多个常见 TPS 模块串成可运行的 Demo。 我的职责 实现角色移动、瞄准、射击和换弹流">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/image/shooter_title.png">
-<meta property="article:published_time" content="2026-04-15T23:00:00.000Z">
-<meta property="article:modified_time" content="2026-04-17T00:38:30.522Z">
-<meta property="article:author" content="John Doe">
+<meta property="og:image" content="https://suizil.github.io/image/shooter_title.png">
+<meta property="article:published_time" content="2026-04-15T16:00:00.000Z">
+<meta property="article:modified_time" content="2026-06-01T18:42:27.440Z">
+<meta property="article:author" content="李遂">
+<meta property="article:tag" content="C++">
+<meta property="article:tag" content="Game Development">
+<meta property="article:tag" content="Gameplay Ability System">
+<meta property="article:tag" content="Portfolio">
+<meta property="article:tag" content="Unreal Engine">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://example.com/image/shooter_title.png">
+<meta name="twitter:image" content="https://suizil.github.io/image/shooter_title.png">
   
   
   
-  <title>UE4 第三人称 3D 射击案例开发详情 - hexo</title>
+  <title>UE4 第三人称 3D 射击案例开发详情 - 李遂的个人网站</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -67,7 +72,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.9","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"expand_all":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"openkounter":{"server_url":"https://open-kounter.mintimate.cn","path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"suizil.github.io","root":"/","version":"1.9.9","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"expand_all":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"openkounter":{"server_url":"https://open-kounter.mintimate.cn","path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -123,33 +128,9 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/archives/" target="_self">
+              <a class="nav-link" href="/updates/" target="_self">
                 <i class="iconfont icon-archive-fill"></i>
-                <span>归档</span>
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/categories/" target="_self">
-                <i class="iconfont icon-category-fill"></i>
-                <span>分类</span>
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/tags/" target="_self">
-                <i class="iconfont icon-tags-fill"></i>
-                <span>标签</span>
+                <span>更新</span>
               </a>
             </li>
           
@@ -235,38 +216,10 @@
           
           
             <div class="col-4 mobile-grid-cell">
-              <a href="/archives/" target="_self">
+              <a href="/updates/" target="_self">
                 <div class="mobile-grid-item">
                   <i class="iconfont icon-archive-fill"></i>
-                  <span>归档</span>
-                </div>
-              </a>
-            </div>
-          
-        
-          
-          
-          
-          
-            <div class="col-4 mobile-grid-cell">
-              <a href="/categories/" target="_self">
-                <div class="mobile-grid-item">
-                  <i class="iconfont icon-category-fill"></i>
-                  <span>分类</span>
-                </div>
-              </a>
-            </div>
-          
-        
-          
-          
-          
-          
-            <div class="col-4 mobile-grid-cell">
-              <a href="/tags/" target="_self">
-                <div class="mobile-grid-item">
-                  <i class="iconfont icon-tags-fill"></i>
-                  <span>标签</span>
+                  <span>更新</span>
                 </div>
               </a>
             </div>
@@ -393,6 +346,19 @@
   </a>
 </div>
 
+<hr>
+<h2 id="项目定位"><a href="#项目定位" class="headerlink" title="项目定位"></a>项目定位</h2><p>这是一个第三人称 3D 射击玩法原型，用于验证角色移动、武器射击、换弹、敌人 AI 和基础战斗反馈的完整链路。项目更偏玩法系统整合，重点是把多个常见 TPS 模块串成可运行的 Demo。</p>
+<h2 id="我的职责"><a href="#我的职责" class="headerlink" title="我的职责"></a>我的职责</h2><ul>
+<li>实现角色移动、瞄准、射击和换弹流程</li>
+<li>搭建基于行为树和黑板的敌人 AI</li>
+<li>使用 AI Perception、导航网格和状态逻辑组织敌人行为</li>
+<li>结合动画蓝图、相机反馈和粒子效果增强射击手感</li>
+</ul>
+<h2 id="结果亮点"><a href="#结果亮点" class="headerlink" title="结果亮点"></a>结果亮点</h2><ul>
+<li>同时覆盖 Line Trace 与 Projectile 两类射击实现</li>
+<li>AI 具备发现、追踪、攻击等基础战斗行为</li>
+<li>项目通过视频和截图展示了核心玩法运行效果</li>
+</ul>
 <hr>
 <h2 id="🛠️-技术栈"><a href="#🛠️-技术栈" class="headerlink" title="🛠️ 技术栈"></a>🛠️ 技术栈</h2><ul>
 <li><strong>Engine:</strong> Unreal Engine 4.27</li>

@@ -16,26 +16,31 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#2f4154">
-  <meta name="author" content="John Doe">
-  <meta name="keywords" content="">
+  <meta name="author" content="李遂">
+  <meta name="keywords" content="Unreal Engine,C++,Gameplay Ability System,Game Development,Portfolio">
   
-    <meta name="description" content="📺 项目演示视频             您的浏览器不支持视频播放，请直接下载视频查看。               查看 GitHub 源码仓库       🛠️ 技术栈 Engine: Unreal Engine 5.4 Language: C++ (Core Logic), Blueprints (Visuals) Framework: Gameplay Ability System (">
+    <meta name="description" content="📺 项目演示视频             您的浏览器不支持视频播放，请直接下载视频查看。               查看 GitHub 源码仓库       项目定位这是一个用于验证 UE5 Gameplay Ability System 工程实践的动作战斗 Demo。项目重点不只是实现技能效果，而是把属性、技能、标签、效果结算和 UI 表现拆成可维护的模块，方便后续继续扩展更多角色和技能。">
 <meta property="og:type" content="website">
 <meta property="og:title" content="UE5 GAS 战斗系统项目详情">
-<meta property="og:url" content="http://example.com/projects/GAS_Demo/index.html">
-<meta property="og:site_name" content="hexo">
-<meta property="og:description" content="📺 项目演示视频             您的浏览器不支持视频播放，请直接下载视频查看。               查看 GitHub 源码仓库       🛠️ 技术栈 Engine: Unreal Engine 5.4 Language: C++ (Core Logic), Blueprints (Visuals) Framework: Gameplay Ability System (">
+<meta property="og:url" content="https://suizil.github.io/projects/GAS_Demo/index.html">
+<meta property="og:site_name" content="李遂的个人网站">
+<meta property="og:description" content="📺 项目演示视频             您的浏览器不支持视频播放，请直接下载视频查看。               查看 GitHub 源码仓库       项目定位这是一个用于验证 UE5 Gameplay Ability System 工程实践的动作战斗 Demo。项目重点不只是实现技能效果，而是把属性、技能、标签、效果结算和 UI 表现拆成可维护的模块，方便后续继续扩展更多角色和技能。">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/image/Title.png">
-<meta property="article:published_time" content="2026-04-15T23:00:00.000Z">
-<meta property="article:modified_time" content="2026-04-16T18:54:44.785Z">
-<meta property="article:author" content="John Doe">
+<meta property="og:image" content="https://suizil.github.io/image/Title.png">
+<meta property="article:published_time" content="2026-04-15T16:00:00.000Z">
+<meta property="article:modified_time" content="2026-06-01T18:42:13.393Z">
+<meta property="article:author" content="李遂">
+<meta property="article:tag" content="C++">
+<meta property="article:tag" content="Game Development">
+<meta property="article:tag" content="Gameplay Ability System">
+<meta property="article:tag" content="Portfolio">
+<meta property="article:tag" content="Unreal Engine">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://example.com/image/Title.png">
+<meta name="twitter:image" content="https://suizil.github.io/image/Title.png">
   
   
   
-  <title>UE5 GAS 战斗系统项目详情 - hexo</title>
+  <title>UE5 GAS 战斗系统项目详情 - 李遂的个人网站</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -67,7 +72,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.9","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"expand_all":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"openkounter":{"server_url":"https://open-kounter.mintimate.cn","path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"suizil.github.io","root":"/","version":"1.9.9","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"expand_all":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"openkounter":{"server_url":"https://open-kounter.mintimate.cn","path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -123,33 +128,9 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/archives/" target="_self">
+              <a class="nav-link" href="/updates/" target="_self">
                 <i class="iconfont icon-archive-fill"></i>
-                <span>归档</span>
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/categories/" target="_self">
-                <i class="iconfont icon-category-fill"></i>
-                <span>分类</span>
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/tags/" target="_self">
-                <i class="iconfont icon-tags-fill"></i>
-                <span>标签</span>
+                <span>更新</span>
               </a>
             </li>
           
@@ -235,38 +216,10 @@
           
           
             <div class="col-4 mobile-grid-cell">
-              <a href="/archives/" target="_self">
+              <a href="/updates/" target="_self">
                 <div class="mobile-grid-item">
                   <i class="iconfont icon-archive-fill"></i>
-                  <span>归档</span>
-                </div>
-              </a>
-            </div>
-          
-        
-          
-          
-          
-          
-            <div class="col-4 mobile-grid-cell">
-              <a href="/categories/" target="_self">
-                <div class="mobile-grid-item">
-                  <i class="iconfont icon-category-fill"></i>
-                  <span>分类</span>
-                </div>
-              </a>
-            </div>
-          
-        
-          
-          
-          
-          
-            <div class="col-4 mobile-grid-cell">
-              <a href="/tags/" target="_self">
-                <div class="mobile-grid-item">
-                  <i class="iconfont icon-tags-fill"></i>
-                  <span>标签</span>
+                  <span>更新</span>
                 </div>
               </a>
             </div>
@@ -394,6 +347,19 @@
 </div>
 
 <hr>
+<h2 id="项目定位"><a href="#项目定位" class="headerlink" title="项目定位"></a>项目定位</h2><p>这是一个用于验证 UE5 Gameplay Ability System 工程实践的动作战斗 Demo。项目重点不只是实现技能效果，而是把属性、技能、标签、效果结算和 UI 表现拆成可维护的模块，方便后续继续扩展更多角色和技能。</p>
+<h2 id="我的职责"><a href="#我的职责" class="headerlink" title="我的职责"></a>我的职责</h2><ul>
+<li>设计角色属性集与伤害结算流程</li>
+<li>实现主动技能、连击、Dash 与冷却消耗控制</li>
+<li>使用 GameplayTags 管理技能状态和互斥规则</li>
+<li>将属性变化通过事件机制同步到 UI 与表现层</li>
+</ul>
+<h2 id="结果亮点"><a href="#结果亮点" class="headerlink" title="结果亮点"></a>结果亮点</h2><ul>
+<li>技能逻辑与表现层解耦，方便替换动画、特效和 UI</li>
+<li>属性和效果计算集中管理，便于调试和平衡数值</li>
+<li>项目保留了完整演示视频和关键蓝图&#x2F;运行截图，便于快速理解实现效果</li>
+</ul>
+<hr>
 <h2 id="🛠️-技术栈"><a href="#🛠️-技术栈" class="headerlink" title="🛠️ 技术栈"></a>🛠️ 技术栈</h2><ul>
 <li><strong>Engine:</strong> Unreal Engine 5.4</li>
 <li><strong>Language:</strong> C++ (Core Logic), Blueprints (Visuals)</li>
@@ -432,7 +398,7 @@
     <img src="image/GA.png" srcset="/img/loading.gif" lazyload class="img-fluid rounded shadow-sm" alt="GA属性蓝图配置">
   </div>
   <div class="col-12 col-md-6 mb-3">
-    <img src="image/ge.png" srcset="/img/loading.gif" lazyload class="img-fluid rounded shadow-sm" alt="GE效果Tag配置">
+    <img src="image/GE.png" srcset="/img/loading.gif" lazyload class="img-fluid rounded shadow-sm" alt="GE效果Tag配置">
   </div>
 </div>
 
